@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-14T16:46:58 IST" name="Default suite" finished-at="2023-11-14T16:47:03 IST" duration-ms="4459">
+    <groups>
+    </groups>
+    <test started-at="2023-11-14T16:46:58 IST" name="Default test" finished-at="2023-11-14T16:47:03 IST" duration-ms="4459">
+      <class name="Day2.postRequests">
+        <test-method signature="using_HashMap()[pri:0, instance:Day2.postRequests@7a419da4]" started-at="2023-11-14T16:46:58 IST" name="using_HashMap" finished-at="2023-11-14T16:47:01 IST" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- using_HashMap -->
+        <test-method signature="using_JSONObject()[pri:0, instance:Day2.postRequests@7a419da4]" started-at="2023-11-14T16:47:01 IST" name="using_JSONObject" finished-at="2023-11-14T16:47:02 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- using_JSONObject -->
+        <test-method signature="using_Json()[pri:0, instance:Day2.postRequests@7a419da4]" started-at="2023-11-14T16:47:02 IST" name="using_Json" finished-at="2023-11-14T16:47:02 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- using_Json -->
+        <test-method signature="using_Pojo()[pri:0, instance:Day2.postRequests@7a419da4]" started-at="2023-11-14T16:47:02 IST" name="using_Pojo" finished-at="2023-11-14T16:47:03 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- using_Pojo -->
+      </class> <!-- Day2.postRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
