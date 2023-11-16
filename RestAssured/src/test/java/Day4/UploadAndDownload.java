@@ -1,5 +1,6 @@
 package Day4;
 
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -32,6 +33,12 @@ public class UploadAndDownload {
                 .then()
                 .statusCode(200)
                 .log().all();
+    }
+
+    @Test
+    public void attributeTest(ITestContext context){
+        int userid = (int) context.getSuite().getAttribute("user_id");
+        System.out.println(userid);
     }
 
 

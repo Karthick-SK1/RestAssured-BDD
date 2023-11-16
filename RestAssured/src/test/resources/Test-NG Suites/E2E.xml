@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/RestAssured-My Project/RestAssured-BDD/RestAssured">
+        <classes>
+<!--            <class name="Day1.httpRequests">-->
+<!--                <methods>-->
+<!--                    <include name="getUserById"/>-->
+<!--                    <include name="createUser"/>-->
+<!--                    <include name="deleteUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Day2.postRequests">-->
+<!--                <methods>-->
+<!--                    <include name="using_HashMap"/>-->
+<!--                    <include name="using_JSONObject"/>-->
+<!--                    <include name="using_Pojo"/>-->
+<!--                    <include name="using_Json"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Day3.HeadersAndCookies">-->
+<!--                <methods>-->
+<!--                    <include name="testCookies"/>-->
+<!--                    <include name="testHeaders"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Day4.Chaining">
+                <methods>
+                    <include name="simpleChaining"/>
+                </methods>
+            </class>
+<!--            <class name="Day4.JsonResponseValidations">-->
+<!--                <methods>-->
+<!--                    <include name="normalValidation"/>-->
+<!--                    <include name="usingResponseObject"/>-->
+<!--                    <include name="usingJsonObject"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Day4.SchemaValidation">-->
+<!--                <methods>-->
+<!--                    <include name="jsonSchemaTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Day4.UploadAndDownload">
+                <methods>
+<!--                    <include name="singleFileUpload"/>-->
+<!--                    <include name="download"/>-->
+                    <include name="attributeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
