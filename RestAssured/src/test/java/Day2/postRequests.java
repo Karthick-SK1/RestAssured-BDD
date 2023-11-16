@@ -88,7 +88,7 @@ public class postRequests {
 	public void using_Json() throws FileNotFoundException {
 
 		File jsonFile = new File(
-				"C:\\Users\\wwwka\\eclipse-workspace\\RestAssured\\src\\test\\resources\\Meta-data\\Json Files\\login.json");
+				"login.json");
 		FileReader read = new FileReader(jsonFile);
 		JSONTokener token = new JSONTokener(read);
 		JSONObject postMap = new JSONObject(token);
